@@ -1,0 +1,161 @@
+LABORATORIO DE SCALPING · 2026-11-11 · costes 0.14% ida y vuelta
+Cripto: BTCUSDT, ETHUSDT, SOLUSDT, BNBUSDT, XRPUSDT, DOGEUSDT, AVAXUSDT, SUIUSDT, LINKUSDT, HYPEUSDT · Acciones (1h): AAPL, TSLA, NVDA, MSFT, AMZN, SPY, QQQ, AMD, META, GOOGL, AVGO, NFLX
+  BTCUSDT 15m: 69999 velas desde 2024-11-12
+  BTCUSDT 1h: 26999 velas desde 2023-10-13
+  ETHUSDT 15m: 69999 velas desde 2024-11-12
+  ETHUSDT 1h: 26999 velas desde 2023-10-13
+  SOLUSDT 15m: 69999 velas desde 2024-11-12
+  SOLUSDT 1h: 26999 velas desde 2023-10-13
+  BNBUSDT 15m: 69999 velas desde 2024-11-12
+  BNBUSDT 1h: 26999 velas desde 2023-10-13
+  XRPUSDT 15m: 69999 velas desde 2024-11-12
+  XRPUSDT 1h: 26999 velas desde 2023-10-13
+  DOGEUSDT 15m: 69999 velas desde 2024-11-12
+  DOGEUSDT 1h: 26999 velas desde 2023-10-13
+  AVAXUSDT 15m: 69999 velas desde 2024-11-12
+  AVAXUSDT 1h: 26999 velas desde 2023-10-13
+  SUIUSDT 15m: 69999 velas desde 2024-11-12
+  SUIUSDT 1h: 26999 velas desde 2023-10-13
+  LINKUSDT 15m: 69999 velas desde 2024-11-12
+  LINKUSDT 1h: 26999 velas desde 2023-10-13
+  HYPEUSDT 15m: 5000 velas desde 2026-09-20
+  HYPEUSDT 1h: 5000 velas desde 2026-04-17
+  AAPL 1h: 5084 velas desde 2023-12-13
+  TSLA 1h: 5084 velas desde 2023-12-13
+  NVDA 1h: 5084 velas desde 2023-12-13
+  MSFT 1h: 5084 velas desde 2023-12-13
+  AMZN 1h: 5084 velas desde 2023-12-13
+  SPY 1h: 5083 velas desde 2023-12-13
+  QQQ 1h: 5084 velas desde 2023-12-13
+  AMD 1h: 5084 velas desde 2023-12-13
+  META 1h: 5084 velas desde 2023-12-13
+  GOOGL 1h: 5084 velas desde 2023-12-13
+  AVGO 1h: 5084 velas desde 2023-12-13
+  NFLX 1h: 5084 velas desde 2023-12-13
+
+❌ [DONL] Ruptura Donchian LONG · 1h · cripto                             3274 ops ·  88/mes · acierto 33% · PF 1.21 · neto 360.0R · caída 78.2R
+     no vistos: 876 ops PF 1.28 neto 137.9R · costes dobles PF 1.05 · sin 5% mejores -756.0R · n×0.8: PF 1.17 · n×1.2: PF 1.22 · sl×0.8: PF 1.21 · sl×1.2: PF 1.21
+     falla: sin el 5% mejores > 0
+❌ [DONHL] Ruptura Donchian + tendencia mayor (EMA800) LONG · 1h · cripto  2384 ops ·  66/mes · acierto 32% · PF 1.18 · neto 229.8R · caída 95.9R
+     no vistos: 596 ops PF 1.22 neto 78.5R · costes dobles PF 1.02 · sin 5% mejores -597.8R · n×0.8: PF 1.15 · n×1.2: PF 1.18 · sl×0.8: PF 1.17 · sl×1.2: PF 1.18
+     falla: sin el 5% mejores > 0
+❌ [EMXS] Cruce EMA 9/21 SHORT · 1h · acciones                             482 ops ·  15/mes · acierto 46% · PF 1.06 · neto 20.5R · caída 54.1R
+     no vistos: 203 ops PF 1.11 neto 14.1R · costes dobles PF 0.91 · sin 5% mejores -44.7R · f×0.8: PF 1.16 · f×1.2: PF 1.04 · s×0.8: PF 1.12 · s×1.2: PF 0.76 · sl×0.8: PF 1.06 · sl×1.2: PF 1.11 · rr×0.8: PF 1.06 · rr×1.2: PF 1.06
+     falla: PF ≥ 1,15, costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONTL] Ruptura Donchian objetivo 2R LONG · 1h · acciones                972 ops ·  29/mes · acierto 38% · PF 1.03 · neto 25.3R · caída 74.2R
+     no vistos: 282 ops PF 0.86 neto -32.8R · costes dobles PF 0.92 · sin 5% mejores -131.6R · n×0.8: PF 1.01 · n×1.2: PF 1.01 · sl×0.8: PF 0.95 · sl×1.2: PF 1.07 · rr×0.8: PF 0.97 · rr×1.2: PF 1.04
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONHL] Ruptura Donchian + tendencia mayor (EMA800) LONG · 1h · acciones   752 ops ·  25/mes · acierto 36% · PF 1.03 · neto 12.1R · caída 67.3R
+     no vistos: 238 ops PF 0.86 neto -19.8R · costes dobles PF 0.87 · sin 5% mejores -192.5R · n×0.8: PF 0.98 · n×1.2: PF 0.99 · sl×0.8: PF 1.06 · sl×1.2: PF 1.03
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONTS] Ruptura Donchian objetivo 2R SHORT · 1h · cripto                3197 ops ·  87/mes · acierto 35% · PF 0.98 · neto -39.5R · caída 173.8R
+     no vistos: 1046 ops PF 0.98 neto -13.2R · costes dobles PF 0.88 · sin 5% mejores -354.1R · n×0.8: PF 0.99 · n×1.2: PF 1.00 · sl×0.8: PF 0.94 · sl×1.2: PF 1.01 · rr×0.8: PF 0.96 · rr×1.2: PF 1.01
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [SQZS] Ruptura tras compresión (squeeze) SHORT · 1h · cripto            667 ops ·  18/mes · acierto 37% · PF 0.98 · neto -11.4R · caída 94.9R
+     no vistos: 228 ops PF 0.90 neto -16.9R · costes dobles PF 0.82 · sin 5% mejores -77.5R · look×0.8: PF 0.94 · look×1.2: PF 0.94 · sl×0.8: PF 0.89 · sl×1.2: PF 0.99 · rr×0.8: PF 0.92 · rr×1.2: PF 0.99
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONTL] Ruptura Donchian objetivo 2R LONG · 1h · cripto                 3471 ops ·  94/mes · acierto 35% · PF 0.97 · neto -76.7R · caída 170.1R
+     no vistos: 962 ops PF 0.87 neto -90.3R · costes dobles PF 0.86 · sin 5% mejores -418.7R · n×0.8: PF 0.96 · n×1.2: PF 0.96 · sl×0.8: PF 0.95 · sl×1.2: PF 1.00 · rr×0.8: PF 0.94 · rr×1.2: PF 0.99
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONL] Ruptura Donchian LONG · 1h · acciones                            936 ops ·  28/mes · acierto 36% · PF 0.95 · neto -26.1R · caída 78.7R
+     no vistos: 265 ops PF 0.82 neto -28.8R · costes dobles PF 0.80 · sin 5% mejores -269.1R · n×0.8: PF 0.92 · n×1.2: PF 0.94 · sl×0.8: PF 0.96 · sl×1.2: PF 0.97
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [SQZL] Ruptura tras compresión (squeeze) LONG · 1h · cripto             640 ops ·  18/mes · acierto 36% · PF 0.95 · neto -23.0R · caída 80.0R
+     no vistos: 170 ops PF 1.09 neto 10.6R · costes dobles PF 0.79 · sin 5% mejores -85.1R · look×0.8: PF 0.98 · look×1.2: PF 0.89 · sl×0.8: PF 0.89 · sl×1.2: PF 0.94 · rr×0.8: PF 0.91 · rr×1.2: PF 0.93
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONHS] Ruptura Donchian + tendencia mayor (EMA800) SHORT · 1h · cripto  2587 ops ·  72/mes · acierto 33% · PF 0.94 · neto -83.1R · caída 185.5R
+     no vistos: 941 ops PF 0.74 neto -134.1R · costes dobles PF 0.81 · sin 5% mejores -753.1R · n×0.8: PF 0.96 · n×1.2: PF 0.96 · sl×0.8: PF 0.93 · sl×1.2: PF 0.94
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONS] Ruptura Donchian SHORT · 1h · cripto                            3395 ops ·  92/mes · acierto 33% · PF 0.89 · neto -183.3R · caída 222.3R
+     no vistos: 1108 ops PF 0.77 neto -137.4R · costes dobles PF 0.77 · sin 5% mejores -1014.3R · n×0.8: PF 0.90 · n×1.2: PF 0.92 · sl×0.8: PF 0.89 · sl×1.2: PF 0.90
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [EMXS] Cruce EMA 9/21 SHORT · 1h · cripto                              2759 ops ·  75/mes · acierto 41% · PF 0.89 · neto -204.9R · caída 233.6R
+     no vistos: 963 ops PF 0.81 neto -121.7R · costes dobles PF 0.74 · sin 5% mejores -405.4R · f×0.8: PF 0.89 · f×1.2: PF 0.87 · s×0.8: PF 0.91 · s×1.2: PF 0.86 · sl×0.8: PF 0.85 · sl×1.2: PF 0.91 · rr×0.8: PF 0.87 · rr×1.2: PF 0.90
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [ASIAS] Ruptura rango de Asia SHORT · 1h · cripto                       2858 ops ·  78/mes · acierto 41% · PF 0.88 · neto -170.9R · caída 247.9R
+     no vistos: 986 ops PF 0.84 neto -86.3R · costes dobles PF 0.72 · sin 5% mejores -448.7R · rr×0.8: PF 0.88 · rr×1.2: PF 0.87
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [ASIAS] Ruptura rango de Asia SHORT · 15m · cripto                      2782 ops · 115/mes · acierto 40% · PF 0.87 · neto -204.9R · caída 291.5R
+     no vistos: 803 ops PF 0.78 neto -109.1R · costes dobles PF 0.71 · sin 5% mejores -477.0R · rr×0.8: PF 0.87 · rr×1.2: PF 0.88
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [EMXL] Cruce EMA 9/21 LONG · 1h · acciones                              692 ops ·  21/mes · acierto 41% · PF 0.86 · neto -71.6R · caída 83.3R
+     no vistos: 174 ops PF 0.67 neto -49.6R · costes dobles PF 0.71 · sin 5% mejores -169.7R · f×0.8: PF 0.89 · f×1.2: PF 0.90 · s×0.8: PF 0.90 · s×1.2: PF 0.93 · sl×0.8: PF 0.83 · sl×1.2: PF 0.87 · rr×0.8: PF 0.82 · rr×1.2: PF 0.85
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [EMXL] Cruce EMA 9/21 LONG · 1h · cripto                               2509 ops ·  68/mes · acierto 41% · PF 0.85 · neto -243.4R · caída 280.9R
+     no vistos: 696 ops PF 0.81 neto -88.1R · costes dobles PF 0.71 · sin 5% mejores -426.8R · f×0.8: PF 0.85 · f×1.2: PF 0.86 · s×0.8: PF 0.88 · s×1.2: PF 0.86 · sl×0.8: PF 0.81 · sl×1.2: PF 0.89 · rr×0.8: PF 0.86 · rr×1.2: PF 0.87
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [ASIAL] Ruptura rango de Asia LONG · 1h · cripto                        2868 ops ·  77/mes · acierto 39% · PF 0.84 · neto -257.1R · caída 290.0R
+     no vistos: 846 ops PF 0.83 neto -77.8R · costes dobles PF 0.69 · sin 5% mejores -537.5R · rr×0.8: PF 0.83 · rr×1.2: PF 0.86
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONTS] Ruptura Donchian objetivo 2R SHORT · 15m · cripto               8961 ops · 370/mes · acierto 35% · PF 0.82 · neto -1212.0R · caída 1240.2R
+     no vistos: 2622 ops PF 0.75 neto -530.9R · costes dobles PF 0.65 · sin 5% mejores -2079.7R · n×0.8: PF 0.81 · n×1.2: PF 0.83 · sl×0.8: PF 0.78 · sl×1.2: PF 0.85 · rr×0.8: PF 0.79 · rr×1.2: PF 0.83
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONHL] Ruptura Donchian + tendencia mayor (EMA800) LONG · 15m · cripto  6281 ops · 262/mes · acierto 27% · PF 0.79 · neto -834.9R · caída 879.7R
+     no vistos: 1924 ops PF 0.80 neto -270.6R · costes dobles PF 0.59 · sin 5% mejores -2656.5R · n×0.8: PF 0.76 · n×1.2: PF 0.82 · sl×0.8: PF 0.79 · sl×1.2: PF 0.81
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [ASIAL] Ruptura rango de Asia LONG · 15m · cripto                       2684 ops · 111/mes · acierto 37% · PF 0.78 · neto -362.0R · caída 383.0R
+     no vistos: 831 ops PF 0.84 neto -81.8R · costes dobles PF 0.63 · sin 5% mejores -624.2R · rr×0.8: PF 0.76 · rr×1.2: PF 0.82
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONHS] Ruptura Donchian + tendencia mayor (EMA800) SHORT · 15m · cripto  7360 ops · 306/mes · acierto 29% · PF 0.78 · neto -1010.8R · caída 1055.3R
+     no vistos: 2218 ops PF 0.60 neto -594.6R · costes dobles PF 0.58 · sin 5% mejores -2948.3R · n×0.8: PF 0.75 · n×1.2: PF 0.80 · sl×0.8: PF 0.77 · sl×1.2: PF 0.78
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONS] Ruptura Donchian SHORT · 15m · cripto                           9102 ops · 376/mes · acierto 29% · PF 0.78 · neto -1280.6R · caída 1327.2R
+     no vistos: 2781 ops PF 0.59 neto -769.0R · costes dobles PF 0.58 · sin 5% mejores -3659.4R · n×0.8: PF 0.74 · n×1.2: PF 0.80 · sl×0.8: PF 0.77 · sl×1.2: PF 0.77
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONTS] Ruptura Donchian objetivo 2R SHORT · 1h · acciones               716 ops ·  21/mes · acierto 31% · PF 0.77 · neto -138.7R · caída 162.3R
+     no vistos: 267 ops PF 0.83 neto -35.9R · costes dobles PF 0.68 · sin 5% mejores -241.3R · n×0.8: PF 0.80 · n×1.2: PF 0.75 · sl×0.8: PF 0.78 · sl×1.2: PF 0.82 · rr×0.8: PF 0.80 · rr×1.2: PF 0.76
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONL] Ruptura Donchian LONG · 15m · cripto                            8665 ops · 358/mes · acierto 28% · PF 0.76 · neto -1321.0R · caída 1332.5R
+     no vistos: 2587 ops PF 0.72 neto -498.4R · costes dobles PF 0.56 · sin 5% mejores -3708.0R · n×0.8: PF 0.73 · n×1.2: PF 0.78 · sl×0.8: PF 0.75 · sl×1.2: PF 0.77
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONTL] Ruptura Donchian objetivo 2R LONG · 15m · cripto                8718 ops · 360/mes · acierto 33% · PF 0.76 · neto -1673.8R · caída 1684.2R
+     no vistos: 2667 ops PF 0.70 neto -650.6R · costes dobles PF 0.59 · sin 5% mejores -2514.3R · n×0.8: PF 0.75 · n×1.2: PF 0.76 · sl×0.8: PF 0.70 · sl×1.2: PF 0.81 · rr×0.8: PF 0.73 · rr×1.2: PF 0.80
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [RSI2S] Reversión RSI(2) SHORT · 1h · acciones                          1092 ops ·  33/mes · acierto 55% · PF 0.75 · neto -88.0R · caída 95.9R
+     no vistos: 427 ops PF 0.64 neto -49.9R · costes dobles PF 0.53 · sin 5% mejores -174.8R · th×0.8: PF 0.73 · th×1.2: PF 0.74 · sl×0.8: PF 0.80 · sl×1.2: PF 0.72
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [RSI2L] Reversión RSI(2) LONG · 1h · cripto                             4956 ops · 134/mes · acierto 59% · PF 0.75 · neto -303.8R · caída 327.1R
+     no vistos: 1316 ops PF 0.57 neto -152.4R · costes dobles PF 0.50 · sin 5% mejores -524.7R · th×0.8: PF 0.76 · th×1.2: PF 0.76 · sl×0.8: PF 0.74 · sl×1.2: PF 0.76
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [RSI2S] Reversión RSI(2) SHORT · 1h · cripto                            5454 ops · 148/mes · acierto 58% · PF 0.74 · neto -345.4R · caída 347.2R
+     no vistos: 1886 ops PF 0.68 neto -153.4R · costes dobles PF 0.49 · sin 5% mejores -616.6R · th×0.8: PF 0.72 · th×1.2: PF 0.74 · sl×0.8: PF 0.74 · sl×1.2: PF 0.75
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [ORBS] Ruptura de la 1ª hora (ORB) SHORT · 1h · acciones               1298 ops ·  39/mes · acierto 41% · PF 0.72 · neto -82.1R · caída 98.7R
+     no vistos: 467 ops PF 0.75 neto -22.8R · costes dobles PF 0.49 · sin 5% mejores -168.5R · rr×0.8: PF 0.72 · rr×1.2: PF 0.72
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [RSI2L] Reversión RSI(2) LONG · 1h · acciones                           1656 ops ·  49/mes · acierto 54% · PF 0.71 · neto -146.8R · caída 148.9R
+     no vistos: 423 ops PF 0.56 neto -59.9R · costes dobles PF 0.47 · sin 5% mejores -274.3R · th×0.8: PF 0.73 · th×1.2: PF 0.67 · sl×0.8: PF 0.70 · sl×1.2: PF 0.72
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [EMXS] Cruce EMA 9/21 SHORT · 15m · cripto                             7403 ops · 306/mes · acierto 41% · PF 0.70 · neto -1616.1R · caída 1617.8R
+     no vistos: 2313 ops PF 0.63 neto -672.1R · costes dobles PF 0.47 · sin 5% mejores -2138.2R · f×0.8: PF 0.70 · f×1.2: PF 0.70 · s×0.8: PF 0.70 · s×1.2: PF 0.70 · sl×0.8: PF 0.62 · sl×1.2: PF 0.75 · rr×0.8: PF 0.65 · rr×1.2: PF 0.73
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [SQZS] Ruptura tras compresión (squeeze) SHORT · 1h · acciones          118 ops ·   4/mes · acierto 30% · PF 0.65 · neto -37.2R · caída 48.0R
+     no vistos: 50 ops PF 0.83 neto -6.4R · costes dobles PF 0.57 · sin 5% mejores -52.5R · look×0.8: PF 0.70 · look×1.2: PF 0.59 · sl×0.8: PF 0.62 · sl×1.2: PF 0.74 · rr×0.8: PF 0.69 · rr×1.2: PF 0.72
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [EMXL] Cruce EMA 9/21 LONG · 15m · cripto                              6666 ops · 276/mes · acierto 39% · PF 0.64 · neto -1813.0R · caída 1825.6R
+     no vistos: 2064 ops PF 0.59 neto -681.2R · costes dobles PF 0.42 · sin 5% mejores -2281.7R · f×0.8: PF 0.66 · f×1.2: PF 0.64 · s×0.8: PF 0.66 · s×1.2: PF 0.64 · sl×0.8: PF 0.59 · sl×1.2: PF 0.67 · rr×0.8: PF 0.61 · rr×1.2: PF 0.67
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [SQZL] Ruptura tras compresión (squeeze) LONG · 15m · cripto           1565 ops ·  65/mes · acierto 33% · PF 0.64 · neto -493.4R · caída 500.4R
+     no vistos: 439 ops PF 0.66 neto -129.2R · costes dobles PF 0.42 · sin 5% mejores -641.6R · look×0.8: PF 0.62 · look×1.2: PF 0.63 · sl×0.8: PF 0.57 · sl×1.2: PF 0.67 · rr×0.8: PF 0.60 · rr×1.2: PF 0.67
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [SQZL] Ruptura tras compresión (squeeze) LONG · 1h · acciones           161 ops ·   5/mes · acierto 28% · PF 0.62 · neto -54.5R · caída 60.4R
+     no vistos: 43 ops PF 1.04 neto 1.4R · costes dobles PF 0.52 · sin 5% mejores -76.8R · look×0.8: PF 0.65 · look×1.2: PF 0.65 · sl×0.8: PF 0.59 · sl×1.2: PF 0.70 · rr×0.8: PF 0.62 · rr×1.2: PF 0.62
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONHS] Ruptura Donchian + tendencia mayor (EMA800) SHORT · 1h · acciones   383 ops ·  13/mes · acierto 29% · PF 0.59 · neto -92.8R · caída 92.8R
+     no vistos: 188 ops PF 0.64 neto -35.9R · costes dobles PF 0.51 · sin 5% mejores -165.6R · n×0.8: PF 0.66 · n×1.2: PF 0.54 · sl×0.8: PF 0.54 · sl×1.2: PF 0.59
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [SQZS] Ruptura tras compresión (squeeze) SHORT · 15m · cripto          1813 ops ·  75/mes · acierto 29% · PF 0.55 · neto -744.4R · caída 744.9R
+     no vistos: 565 ops PF 0.56 neto -231.5R · costes dobles PF 0.37 · sin 5% mejores -915.1R · look×0.8: PF 0.58 · look×1.2: PF 0.54 · sl×0.8: PF 0.51 · sl×1.2: PF 0.61 · rr×0.8: PF 0.53 · rr×1.2: PF 0.57
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [DONS] Ruptura Donchian SHORT · 1h · acciones                           709 ops ·  21/mes · acierto 29% · PF 0.50 · neto -254.4R · caída 256.0R
+     no vistos: 278 ops PF 0.62 neto -61.9R · costes dobles PF 0.43 · sin 5% mejores -377.3R · n×0.8: PF 0.52 · n×1.2: PF 0.47 · sl×0.8: PF 0.54 · sl×1.2: PF 0.56
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [RSI2S] Reversión RSI(2) SHORT · 15m · cripto                          13908 ops · 574/mes · acierto 50% · PF 0.49 · neto -1972.5R · caída 1978.0R
+     no vistos: 4271 ops PF 0.35 neto -952.6R · costes dobles PF 0.20 · sin 5% mejores -2560.5R · th×0.8: PF 0.51 · th×1.2: PF 0.48 · sl×0.8: PF 0.48 · sl×1.2: PF 0.49
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [ORBL] Ruptura de la 1ª hora (ORB) LONG · 1h · acciones                1962 ops ·  59/mes · acierto 38% · PF 0.48 · neto -269.9R · caída 269.9R
+     no vistos: 512 ops PF 0.45 neto -69.6R · costes dobles PF 0.25 · sin 5% mejores -363.4R · rr×0.8: PF 0.48 · rr×1.2: PF 0.47
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1
+❌ [RSI2L] Reversión RSI(2) LONG · 15m · cripto                           12747 ops · 527/mes · acierto 49% · PF 0.45 · neto -2103.0R · caída 2105.0R
+     no vistos: 3854 ops PF 0.37 neto -790.3R · costes dobles PF 0.18 · sin 5% mejores -2604.9R · th×0.8: PF 0.47 · th×1.2: PF 0.45 · sl×0.8: PF 0.44 · sl×1.2: PF 0.46
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0, sensibilidad ±20% PF ≥ 1

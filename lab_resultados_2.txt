@@ -1,0 +1,53 @@
+LABORATORIO DE SCALPING · 2026-11-11 · costes 0.14% ida y vuelta
+Cripto: BTCUSDT, ETHUSDT, SOLUSDT, BNBUSDT, XRPUSDT, DOGEUSDT, AVAXUSDT, SUIUSDT, LINKUSDT, HYPEUSDT · Acciones (1h): AAPL, TSLA, NVDA, MSFT, AMZN, SPY, QQQ, AMD, META, GOOGL, AVGO, NFLX
+  BTCUSDT 15m: 69999 velas desde 2024-11-12
+  BTCUSDT 1h: 26999 velas desde 2023-10-13
+  ETHUSDT 15m: 69999 velas desde 2024-11-12
+  ETHUSDT 1h: 26999 velas desde 2023-10-13
+  SOLUSDT 15m: 69999 velas desde 2024-11-12
+  SOLUSDT 1h: 26999 velas desde 2023-10-13
+  BNBUSDT 15m: 69999 velas desde 2024-11-12
+  BNBUSDT 1h: 26999 velas desde 2023-10-13
+  XRPUSDT 15m: 69999 velas desde 2024-11-12
+  XRPUSDT 1h: 26999 velas desde 2023-10-13
+  DOGEUSDT 15m: 69999 velas desde 2024-11-12
+  DOGEUSDT 1h: 26999 velas desde 2023-10-13
+  AVAXUSDT 15m: 69999 velas desde 2024-11-12
+  AVAXUSDT 1h: 26999 velas desde 2023-10-13
+  SUIUSDT 15m: 69999 velas desde 2024-11-12
+  SUIUSDT 1h: 26999 velas desde 2023-10-13
+  LINKUSDT 15m: 69999 velas desde 2024-11-12
+  LINKUSDT 1h: 26999 velas desde 2023-10-13
+  HYPEUSDT 15m: 5000 velas desde 2026-09-20
+  HYPEUSDT 1h: 5000 velas desde 2026-04-17
+  AAPL 1h: 5084 velas desde 2023-12-13
+  TSLA 1h: 5084 velas desde 2023-12-13
+  NVDA 1h: 5084 velas desde 2023-12-13
+  MSFT 1h: 5084 velas desde 2023-12-13
+  AMZN 1h: 5084 velas desde 2023-12-13
+  SPY 1h: 5083 velas desde 2023-12-13
+  QQQ 1h: 5084 velas desde 2023-12-13
+  AMD 1h: 5084 velas desde 2023-12-13
+  META 1h: 5084 velas desde 2023-12-13
+  GOOGL 1h: 5084 velas desde 2023-12-13
+  AVGO 1h: 5084 velas desde 2023-12-13
+  NFLX 1h: 5084 velas desde 2023-12-13
+
+❌ [D55L] Donchian 55 LONG · 1h · cripto                                  1765 ops ·  48/mes · acierto 26% · PF 1.36 · neto 442.9R · caída 189.0R
+     no vistos: 495 ops PF 1.13 neto 50.6R · costes dobles PF 1.22 · sin 5% mejores -629.3R · n×0.8: PF 1.35 · n×1.2: PF 1.42 · sl×0.8: PF 1.37 · sl×1.2: PF 1.35
+     falla: sin el 5% mejores > 0
+❌ [D55dbL] Donchian 55 LONG + tendencia diaria + BTC alcista · 1h · cripto   745 ops ·  24/mes · acierto 28% · PF 1.29 · neto 150.2R · caída 71.9R
+     no vistos: 102 ops PF 0.57 neto -35.9R · costes dobles PF 1.16 · sin 5% mejores -240.8R · n×0.8: PF 1.27 · n×1.2: PF 1.38 · sl×0.8: PF 1.24 · sl×1.2: PF 1.32
+     falla: datos no vistos PF ≥ 1,1 (≥30 ops), sin el 5% mejores > 0
+❌ [D55dL] Donchian 55 LONG + tendencia diaria · 1h · cripto                775 ops ·  25/mes · acierto 27% · PF 1.27 · neto 146.0R · caída 75.2R
+     no vistos: 115 ops PF 0.67 neto -31.1R · costes dobles PF 1.14 · sin 5% mejores -256.3R · n×0.8: PF 1.25 · n×1.2: PF 1.35 · sl×0.8: PF 1.20 · sl×1.2: PF 1.29
+     falla: datos no vistos PF ≥ 1,1 (≥30 ops), sin el 5% mejores > 0
+❌ [D20bL] Donchian 20 LONG + BTC alcista · 1h · cripto                    1792 ops ·  59/mes · acierto 34% · PF 1.19 · neto 175.4R · caída 69.7R
+     no vistos: 241 ops PF 1.14 neto 18.6R · costes dobles PF 1.03 · sin 5% mejores -371.3R · n×0.8: PF 1.12 · n×1.2: PF 1.22 · sl×0.8: PF 1.18 · sl×1.2: PF 1.22
+     falla: sin el 5% mejores > 0
+❌ [D20dbL] Donchian 20 LONG + tendencia diaria + BTC alcista · 1h · cripto  1369 ops ·  45/mes · acierto 34% · PF 1.09 · neto 65.4R · caída 64.1R
+     no vistos: 180 ops PF 0.90 neto -10.4R · costes dobles PF 0.94 · sin 5% mejores -311.2R · n×0.8: PF 1.04 · n×1.2: PF 1.11 · sl×0.8: PF 1.10 · sl×1.2: PF 1.14
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0
+❌ [D20dL] Donchian 20 LONG + tendencia diaria · 1h · cripto               1418 ops ·  46/mes · acierto 34% · PF 1.08 · neto 63.1R · caída 65.8R
+     no vistos: 200 ops PF 0.92 neto -9.6R · costes dobles PF 0.93 · sin 5% mejores -322.5R · n×0.8: PF 1.03 · n×1.2: PF 1.10 · sl×0.8: PF 1.08 · sl×1.2: PF 1.13
+     falla: PF ≥ 1,15, datos no vistos PF ≥ 1,1 (≥30 ops), costes dobles PF ≥ 1, sin el 5% mejores > 0

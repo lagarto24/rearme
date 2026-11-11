@@ -1,0 +1,25 @@
+PLAN TOP 50 · 2026-11-11 · Donchian 20 LONG 1h · costes 0.14%
+
+══ 25 PRIMERAS (siempre): 25 activos con datos (sin datos: ninguno) ══
+❌ Regla normal (Donchian 20)          7577 ops (204/mes) · acierto 33% · PF 1.13 · neto 541.8R · caída 188.9R
+     no vistos PF 1.17 (2106 ops) · costes dobles PF 0.98 · sin 5% mejores -1954R · sensibilidad PF 1.09/1.14/1.13/1.14 · falla: PF≥1,15, costes dobles PF≥1, sin 5% mejores >0
+❌ + volumen ≥ 1,5×                    6292 ops (170/mes) · acierto 33% · PF 1.20 · neto 669.0R · caída 130.2R
+     no vistos PF 1.23 (1809 ops) · costes dobles PF 1.05 · sin 5% mejores -1532R · sensibilidad PF 1.15/1.20/1.18/1.20 · falla: sin 5% mejores >0
+❌ + ADX ≥ 25                          4162 ops (112/mes) · acierto 32% · PF 1.17 · neto 373.9R · caída 140.9R
+     no vistos PF 1.33 (1136 ops) · costes dobles PF 1.02 · sin 5% mejores -1119R · sensibilidad PF 1.13/1.17/1.18/1.14 · falla: sin 5% mejores >0
+❌ + volumen + ADX                     3404 ops (92/mes) · acierto 32% · PF 1.25 · neto 466.3R · caída 115.2R
+     no vistos PF 1.38 (975 ops) · costes dobles PF 1.10 · sin 5% mejores -841R · sensibilidad PF 1.22/1.25/1.25/1.23 · falla: sin 5% mejores >0
+❌ + volumen + ADX + BTC alcista       1933 ops (63/mes) · acierto 34% · PF 1.28 · neto 287.3R · caída 69.5R
+     no vistos PF 1.43 (279 ops) · costes dobles PF 1.13 · sin 5% mejores -423R · sensibilidad PF 1.24/1.28/1.31/1.27 · falla: sin 5% mejores >0
+
+══ PUESTOS 26–50 (solo muy claras): 25 activos con datos (sin datos: ninguno) ══
+❌ Regla normal (Donchian 20)          5960 ops (161/mes) · acierto 31% · PF 1.02 · neto 77.2R · caída 180.2R
+     no vistos PF 1.04 (1771 ops) · costes dobles PF 0.92 · sin 5% mejores -1723R · sensibilidad PF 0.99/1.02/1.02/1.03 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ + volumen ≥ 1,5×                    4946 ops (133/mes) · acierto 32% · PF 1.02 · neto 66.1R · caída 149.4R
+     no vistos PF 1.07 (1478 ops) · costes dobles PF 0.92 · sin 5% mejores -1478R · sensibilidad PF 0.99/1.03/1.02/1.03 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ + ADX ≥ 25                          3301 ops (89/mes) · acierto 31% · PF 1.01 · neto 26.7R · caída 157.2R
+     no vistos PF 1.28 (938 ops) · costes dobles PF 0.91 · sin 5% mejores -973R · sensibilidad PF 0.98/1.01/1.03/1.01 · falla: PF≥1,15, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ + volumen + ADX                     2721 ops (73/mes) · acierto 31% · PF 1.01 · neto 8.0R · caída 126.5R
+     no vistos PF 1.18 (817 ops) · costes dobles PF 0.91 · sin 5% mejores -843R · sensibilidad PF 0.98/1.01/1.03/1.01 · falla: PF≥1,15, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ + volumen + ADX + BTC alcista       1465 ops (48/mes) · acierto 31% · PF 1.02 · neto 12.6R · caída 97.8R
+     no vistos PF 1.06 (308 ops) · costes dobles PF 0.92 · sin 5% mejores -434R · sensibilidad PF 0.97/1.02/1.04/1.03 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad

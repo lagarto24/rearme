@@ -1,0 +1,4 @@
+_cache/
+*.log
+scalp_config.json
+scalp_state.json

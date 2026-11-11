@@ -1,0 +1,40 @@
+# Bot de scalping (repositorio propio, aparte de Tanatabot Señales): revisa el mercado cada 15 minutos aunque el ordenador esté apagado.
+# Solo actúa cuando cierra una vela de 1 hora nueva. Envía al grupo "Tanatabot Scalping".
+# Secreto del repositorio: TELEGRAM_BOT_TOKEN (el mismo de @Tanatabot). El estado se guarda en estado_nube.json.
+name: Scalping Tanatabot
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  push:
+    branches: [main]   # al subir cambios se ejecuta enseguida (los commits de estado del propio bot no lo relanzan)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scalping
+  cancel-in-progress: false
+
+jobs:
+  pasada:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.2.21
+      - name: Revisar el mercado y enviar señales
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          SCALP_CHAT_IDS: "-5492225413"
+          SCALP_STATE: estado_nube.json
+        run: bun scalp.ts --once
+      - name: Guardar el estado (evita señales repetidas)
+        run: |
+          git config user.name "tanatabot"
+          git config user.email "tanatabot@users.noreply.github.com"
+          git add estado_nube.json
+          git diff --cached --quiet || (git commit -q -m "estado scalping" && (git push -q || (git pull -q --rebase && git push -q)))
