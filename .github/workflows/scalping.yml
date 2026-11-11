@@ -1,40 +1,54 @@
-# Bot de scalping (repositorio propio, aparte de Tanatabot Señales): revisa el mercado cada 15 minutos aunque el ordenador esté apagado.
-# Solo actúa cuando cierra una vela de 1 hora nueva. Envía al grupo "Tanatabot Scalping".
-# Secreto del repositorio: TELEGRAM_BOT_TOKEN (el mismo de @Tanatabot). El estado se guarda en estado_nube.json.
+# Bot de scalping (repositorio propio, aparte de Tanatabot Señales). Funciona en la nube aunque el ordenador esté apagado.
+# Igual que Tanatabot: cada ejecución revisa el mercado cada 5 minutos durante ~5 h 30 min y, al terminar, lanza la siguiente.
+# (El cron de GitHub se retrasa o se salta en repositorios nuevos; así las señales salen pocos minutos después del cierre de la vela de 1h.)
+# El cron y el push son solo respaldo. Secreto: TELEGRAM_BOT_TOKEN. Estado en estado_nube.json. Grupo: "Tanatabot Scalping".
 name: Scalping Tanatabot
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "17 */2 * * *"   # respaldo por si la cadena se corta
   push:
-    branches: [main]   # al subir cambios se ejecuta enseguida (los commits de estado del propio bot no lo relanzan)
+    branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write   # guardar estado_nube.json
+  actions: write    # lanzar la siguiente ejecución
 
 concurrency:
   group: scalping
   cancel-in-progress: false
 
 jobs:
-  pasada:
+  bucle:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: 1.2.21
-      - name: Revisar el mercado y enviar señales
+      - name: Bucle de scalping (cada 5 min durante ~5 h 30 min)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           SCALP_CHAT_IDS: "-5492225413"
           SCALP_STATE: estado_nube.json
-        run: bun scalp.ts --once
-      - name: Guardar el estado (evita señales repetidas)
         run: |
           git config user.name "tanatabot"
           git config user.email "tanatabot@users.noreply.github.com"
-          git add estado_nube.json
-          git diff --cached --quiet || (git commit -q -m "estado scalping" && (git push -q || (git pull -q --rebase && git push -q)))
+          end=$((SECONDS + 330*60))
+          while [ $SECONDS -lt $end ]; do
+            git pull -q --rebase || true
+            bun scalp.ts --once || echo "pasada con error, se reintenta en 5 min"
+            git add estado_nube.json
+            if ! git diff --cached --quiet; then
+              git commit -q -m "estado scalping"
+              git push -q || (git pull -q --rebase && git push -q) || echo "no se pudo guardar el estado, se reintenta"
+            fi
+            sleep 300
+          done
+      - name: Lanzar la siguiente ejecución
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run scalping.yml --ref main

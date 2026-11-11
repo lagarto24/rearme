@@ -21,7 +21,7 @@ Bot de señales de corto plazo para cripto. **Solo envía estrategias probadas c
 
 ## En marcha
 - **En la nube, en su propio repositorio de GitHub** (`lagarto24/rearme`, aparte de Tanatabot): `.github/workflows/scalping.yml`
-  revisa cada 15 minutos aunque el ordenador esté apagado y envía al grupo "Tanatabot Scalping". Secreto: `TELEGRAM_BOT_TOKEN`.
+  revisa cada 5 minutos (ejecuciones encadenadas, como Tanatabot) aunque el ordenador esté apagado y envía al grupo "Tanatabot Scalping". Secreto: `TELEGRAM_BOT_TOKEN`.
   Estado en `estado_nube.json`. Para subir cambios: doble clic en `SUBIR_A_GITHUB.bat`.
 - En este ordenador queda el laboratorio. `scalp_config.json` está vacío a propósito: si se ejecuta aquí (`INICIAR_SCALPING.bat`),
   funciona en modo papel y no duplica las señales de la nube.
