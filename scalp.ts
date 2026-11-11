@@ -75,7 +75,7 @@ async function candles(sym: string): Promise<C[]> {
 // ───────── Lógica (la misma que la variante "volumen + ADX" de lab_top50.ts) ─────────
 type Pos = { sym: string; entry: number; sl: number; stop: number; t: number; lastBar: number; bars: number; obs?: boolean };
 type Closed = { sym: string; entry: number; exit: number; sl: number; R: number; pct: number; opened: number; closed: number; obs?: boolean };
-type State = { open: Record<string, Pos>; last: Record<string, number>; history: Closed[]; lastWeekly?: string };
+type State = { open: Record<string, Pos>; last: Record<string, number>; history: Closed[]; lastWeekly?: string; modo?: string };
 const loadState = (): State => (existsSync(STATE) ? JSON.parse(readFileSync(STATE, "utf8")) : { open: {}, last: {}, history: [] });
 
 function signal(k: C[]): { price: number; sl: number; t: number; hh: number; vx: number; adx: number } | null {
@@ -152,6 +152,7 @@ async function pass() {
   const now = new Date(), wd = now.toLocaleDateString("en-GB", { timeZone: "Europe/Madrid", weekday: "short" }), hr = +now.toLocaleString("en-GB", { timeZone: "Europe/Madrid", hour: "2-digit", hour12: false });
   const day = now.toLocaleDateString("en-CA", { timeZone: "Europe/Madrid" });
   if (wd === "Sun" && hr >= 19 && st.lastWeekly !== day && (await send(summary(st)))) st.lastWeekly = day;
+  st.modo = PAPER ? "papel (no envía: falta el token o el grupo)" : `envía a ${CHATS.length} chat(s)`; // se ve en el estado publicado
   if (!DRY) writeFileSync(STATE, JSON.stringify(st, null, 2));
   console.log(new Date().toISOString(), PAPER ? "· MODO PAPEL (sin grupo configurado: no se envía nada)" : `· enviando a ${CHATS.length} chat(s)`, DRY ? "· prueba en seco" : "");
   console.log(lines.join("\n"));
