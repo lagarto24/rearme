@@ -13,7 +13,10 @@ Bot de señales de corto plazo para cripto. **Solo envía estrategias probadas c
   - Puestos 26–50: ninguna versión gana (PF ~1,02 incluso solo con señales claras). **No se envían**: se vigilan en papel y salen en el resumen.
 
 ## Cómo funciona `scalp.ts`
-- Cada hora revisa las 50 criptos. Señal: cierre sobre el máximo de 20 velas y sobre la EMA200, con volumen ≥ 1,5× la media y ADX ≥ 25.
+- Top 25 cripto en **1h** (solo señales claras: volumen ≥ 1,5× y ADX ≥ 25), **2h** y **4h** (ruptura + EMA200), solo LONG.
+  Backtest juntos (`lab_mas.ts`): ~8 señales/día, PF 1,34 (datos no vistos 1,34). Puestos 26–50: solo vigilancia en 1h.
+- Descartado tras probarlo (`lab_tf.ts`, `lab_pct.ts`): velas de 15 y 30 min, SHORT y objetivos fijos tipo +25% / −15%: pierden con costes.
+- Los mensajes muestran el stop y el resultado en % de precio y con apalancamiento x10.
 - Stop inicial 2 × ATR; después sube al mínimo de las últimas 10 velas. Al tocarlo envía un mensaje corto: **CERRAR POSICIÓN**.
 - El socio del proyecto (ID 936234915) recibe por privado lo mismo que el grupo.
 - Resumen cada domingo a las 19:00 (enviadas + vigilancia 26–50). Sin grupo configurado funciona en **modo papel** (registra, no envía).

@@ -1,0 +1,43 @@
+SCALPING POR TEMPORALIDAD · top 25 cripto · costes 0.14% · 2026-11-11
+
+══ 15m · 25 criptos · desde 2024-11-12 ══
+❌ LONG  · regla básica         20266 ops (27.9/día) · acierto 28% · PF 0.76 · neto -2999R · caída 3097R
+     no vistos PF 0.71 (6008) · costes dobles PF 0.57 · sin 5% mejores -8467R · sensibilidad 0.73/0.75/0.79/0.77 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ LONG  · solo señales claras   8386 ops (11.6/día) · acierto 29% · PF 0.84 · neto -849R · caída 999R
+     no vistos PF 0.77 (2477) · costes dobles PF 0.65 · sin 5% mejores -3302R · sensibilidad 0.81/0.82/0.86/0.85 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ LONG  · claras + filtro BTC   2849 ops (5.5/día) · acierto 30% · PF 0.81 · neto -349R · caída 367R
+     no vistos PF 0.83 (924) · costes dobles PF 0.61 · sin 5% mejores -1087R · sensibilidad 0.76/0.77/0.82/0.80 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT · regla básica         21674 ops (29.8/día) · acierto 29% · PF 0.75 · neto -3313R · caída 3445R
+     no vistos PF 0.56 (6613) · costes dobles PF 0.56 · sin 5% mejores -8590R · sensibilidad 0.72/0.74/0.77/0.75 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT · solo señales claras   9293 ops (12.8/día) · acierto 30% · PF 0.77 · neto -1291R · caída 1457R
+     no vistos PF 0.59 (2637) · costes dobles PF 0.59 · sin 5% mejores -3615R · sensibilidad 0.75/0.76/0.78/0.77 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT · claras + filtro BTC   3949 ops (10.0/día) · acierto 29% · PF 0.70 · neto -720R · caída 721R
+     no vistos PF 0.51 (1752) · costes dobles PF 0.53 · sin 5% mejores -1600R · sensibilidad 0.69/0.71/0.70/0.70 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+══ 30m · 25 criptos · desde 2024-11-12 ══
+❌ LONG  · regla básica          9887 ops (13.7/día) · acierto 30% · PF 0.91 · neto -504R · caída 656R
+     no vistos PF 0.84 (2981) · costes dobles PF 0.75 · sin 5% mejores -3387R · sensibilidad 0.87/0.90/0.94/0.93 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ LONG  · solo señales claras   4310 ops (6.0/día) · acierto 30% · PF 1.01 · neto 34R · caída 217R
+     no vistos PF 0.95 (1310) · costes dobles PF 0.84 · sin 5% mejores -1331R · sensibilidad 0.95/1.01/1.05/1.03 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ LONG  · claras + filtro BTC   1580 ops (3.0/día) · acierto 31% · PF 1.02 · neto 19R · caída 102R
+     no vistos PF 1.09 (509) · costes dobles PF 0.84 · sin 5% mejores -462R · sensibilidad 0.91/1.02/1.04/1.03 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT · regla básica         10999 ops (15.2/día) · acierto 31% · PF 0.85 · neto -874R · caída 1143R
+     no vistos PF 0.67 (3195) · costes dobles PF 0.69 · sin 5% mejores -3566R · sensibilidad 0.84/0.84/0.86/0.86 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT · solo señales claras   4766 ops (6.6/día) · acierto 30% · PF 0.87 · neto -360R · caída 668R
+     no vistos PF 0.55 (1370) · costes dobles PF 0.72 · sin 5% mejores -1585R · sensibilidad 0.86/0.83/0.87/0.87 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT · claras + filtro BTC   2089 ops (5.3/día) · acierto 30% · PF 0.73 · neto -323R · caída 323R
+     no vistos PF 0.58 (869) · costes dobles PF 0.58 · sin 5% mejores -762R · sensibilidad 0.74/0.71/0.72/0.72 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+══ 1h · 25 criptos · desde 2023-10-13 ══
+❌ LONG  · regla básica          7577 ops (6.8/día) · acierto 33% · PF 1.13 · neto 542R · caída 189R
+     no vistos PF 1.17 (2106) · costes dobles PF 0.98 · sin 5% mejores -1954R · sensibilidad 1.09/1.14/1.13/1.14 · falla: PF≥1,15, costes dobles PF≥1, sin 5% mejores >0
+🟡 LONG  · solo señales claras   3404 ops (3.1/día) · acierto 32% · PF 1.25 · neto 466R · caída 115R
+     no vistos PF 1.38 (975) · costes dobles PF 1.10 · sin 5% mejores -841R · sensibilidad 1.22/1.25/1.25/1.23 · falla: sin 5% mejores >0
+🟡 LONG  · claras + filtro BTC   1933 ops (2.1/día) · acierto 34% · PF 1.28 · neto 287R · caída 70R
+     no vistos PF 1.43 (279) · costes dobles PF 1.13 · sin 5% mejores -423R · sensibilidad 1.24/1.28/1.31/1.27 · falla: sin 5% mejores >0
+❌ SHORT · regla básica          8036 ops (7.2/día) · acierto 33% · PF 0.88 · neto -491R · caída 537R
+     no vistos PF 0.78 (2584) · costes dobles PF 0.76 · sin 5% mejores -2343R · sensibilidad 0.88/0.87/0.89/0.88 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT · solo señales claras   3533 ops (3.2/día) · acierto 33% · PF 0.94 · neto -114R · caída 212R
+     no vistos PF 0.72 (1054) · costes dobles PF 0.82 · sin 5% mejores -959R · sensibilidad 0.94/0.90/0.92/0.93 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT · claras + filtro BTC   1415 ops (1.6/día) · acierto 32% · PF 0.77 · neto -170R · caída 170R
+     no vistos PF 0.79 (808) · costes dobles PF 0.67 · sin 5% mejores -457R · sensibilidad 0.81/0.75/0.76/0.77 · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad

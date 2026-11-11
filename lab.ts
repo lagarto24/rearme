@@ -7,7 +7,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join } from "path";
 
 export type C = { t: number; o: number; h: number; l: number; c: number; v: number };
-export type TF = "15m" | "1h";
+export type TF = "15m" | "30m" | "1h";
 const DIR = import.meta.dir, CACHE = join(DIR, "_cache");
 mkdirSync(CACHE, { recursive: true });
 // Top 50 cripto por capitalización (CoinGecko, 11/11/2026) que se pueden operar: sin stablecoins, oro tokenizado, activos RWA,
@@ -20,7 +20,7 @@ export const CRYPTO = process.env.SOLO_TOP20 ? TIER_A.slice(0, 20) : [...TIER_A,
 export const HYPERLIQUID: Record<string, string> = {"HYPEUSDT":  "HYPE", "XMRUSDT":  "XMR", "CCUSDT":  "CC", "MNTUSDT":  "MNT", "VVVUSDT":  "VVV", "LITUSDT":  "LIT", "KASUSDT":  "KAS"};
 export const STOCKS = ["AAPL", "TSLA", "NVDA", "MSFT", "AMZN", "SPY", "QQQ", "AMD", "META", "GOOGL", "AVGO", "NFLX"];
 export const COST = 0.0014;
-const H = 3600_000, TFMS: Record<TF, number> = { "15m": 15 * 60_000, "1h": H };
+const H = 3600_000, TFMS: Record<TF, number> = { "15m": 15 * 60_000, "30m": 30 * 60_000, "1h": H };
 
 // ───────── Datos ─────────
 async function binance(sym: string, tf: TF, total: number): Promise<C[]> {
@@ -51,7 +51,7 @@ async function yahoo(sym: string): Promise<C[]> {
 export async function load(sym: string, tf: TF): Promise<C[]> {
   const f = join(CACHE, `${sym}_${tf}.json`);
   if (existsSync(f)) return JSON.parse(readFileSync(f, "utf8"));
-  const k = HYPERLIQUID[sym] ? await hyper(HYPERLIQUID[sym], tf) : sym.endsWith("USDT") ? await binance(sym, tf, tf === "15m" ? 70_000 : 26_500) : tf === "1h" ? await yahoo(sym) : [];
+  const k = HYPERLIQUID[sym] ? await hyper(HYPERLIQUID[sym], tf) : sym.endsWith("USDT") ? await binance(sym, tf, tf === "15m" ? 70_000 : tf === "30m" ? 35_000 : 26_500) : tf === "1h" ? await yahoo(sym) : [];
   writeFileSync(f, JSON.stringify(k));
   return k;
 }

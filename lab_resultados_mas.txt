@@ -1,0 +1,22 @@
+MÁS SEÑALES · ruptura Donchian 20, stop 2 ATR que sigue al precio · top 25 cripto · costes 0.14%
+
+══ velas de 1h ══
+🟡 LONG  señales claras   3404 ops (3.1/día) · acierto 32% · PF 1.25 · no vistos 1.38 · costes dobles 1.10 · caída 115R · falla: sin 5% mejores >0
+❌ LONG  regla básica     7577 ops (6.8/día) · acierto 33% · PF 1.13 · no vistos 1.17 · costes dobles 0.98 · caída 189R · falla: PF≥1,15, costes dobles PF≥1, sin 5% mejores >0
+❌ SHORT señales claras   3533 ops (3.2/día) · acierto 33% · PF 0.94 · no vistos 0.72 · costes dobles 0.82 · caída 212R · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT regla básica     8036 ops (7.2/día) · acierto 33% · PF 0.88 · no vistos 0.78 · costes dobles 0.76 · caída 537R · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+══ velas de 2h ══
+🟡 LONG  señales claras   1685 ops (1.5/día) · acierto 31% · PF 1.28 · no vistos 1.35 · costes dobles 1.18 · caída 101R · falla: sin 5% mejores >0
+🟡 LONG  regla básica     3696 ops (3.4/día) · acierto 31% · PF 1.24 · no vistos 1.16 · costes dobles 1.13 · caída 139R · falla: sin 5% mejores >0
+❌ SHORT señales claras   1752 ops (1.6/día) · acierto 29% · PF 0.74 · no vistos 0.73 · costes dobles 0.67 · caída 234R · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT regla básica     3974 ops (3.6/día) · acierto 32% · PF 0.93 · no vistos 0.90 · costes dobles 0.84 · caída 172R · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+══ velas de 4h ══
+🟡 LONG  señales claras    858 ops (0.8/día) · acierto 32% · PF 1.86 · no vistos 2.16 · costes dobles 1.76 · caída 52R · falla: sin 5% mejores >0
+🟡 LONG  regla básica     1772 ops (1.6/día) · acierto 33% · PF 1.72 · no vistos 1.63 · costes dobles 1.61 · caída 93R · falla: sin 5% mejores >0
+❌ SHORT señales claras    873 ops (0.8/día) · acierto 29% · PF 0.61 · no vistos 0.72 · costes dobles 0.57 · caída 182R · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+❌ SHORT regla básica     1905 ops (1.8/día) · acierto 33% · PF 0.86 · no vistos 0.69 · costes dobles 0.80 · caída 156R · falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+COMBINADO 1h + 4h (LONG, señales claras): 4262 ops (3.8/día) · PF 1.37 · neto 845R · caída 150R
+COMBINADO 1h + 2h + 4h (LONG, señales claras): 5947 ops (5.3/día) · PF 1.34 · neto 1105R · caída 243R

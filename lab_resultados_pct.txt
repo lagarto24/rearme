@@ -1,0 +1,37 @@
+SALIDAS EN % · scalping 1h LONG (señales claras) · 25 criptos · costes 0.14% · 2026-11-11
+"% sobre margen" = ganancia o pérdida de la operación con el apalancamiento indicado (incluye comisiones).
+
+🟡 Actual: stop 2 ATR que sigue al precio
+     3404 ops (3.1/día) · acierto 32% · PF 1.25 · no vistos PF 1.38 · costes dobles PF 1.10 · caída 115R
+     con x10: ganadora media +52.2% · perdedora media -20.0% · media por operación +3.41% sobre margen
+     falla: sin 5% mejores >0
+
+❌ +25% / −15% con x20 (precio +1,25% / −0,75%)
+     5432 ops (4.9/día) · acierto 33% · PF 0.61 · no vistos PF 0.68 · costes dobles PF 0.46 · caída 1691R
+     con x20: ganadora media +22.2% · perdedora media -17.8% · media por operación -4.67% sobre margen
+     falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+❌ +25% / −15% con x10 (precio +2,5% / −1,5%)
+     4625 ops (4.2/día) · acierto 37% · PF 0.84 · no vistos PF 0.91 · costes dobles PF 0.73 · caída 502R
+     con x10: ganadora media +23.3% · perdedora media -16.3% · media por operación -1.61% sobre margen
+     falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+❌ +25% / −15% con x5 (precio +5% / −3%)
+     3633 ops (3.3/día) · acierto 40% · PF 0.99 · no vistos PF 0.99 · costes dobles PF 0.92 · caída 106R
+     con x5: ganadora media +22.2% · perdedora media -15.0% · media por operación -0.09% sobre margen
+     falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+❌ Mismo 25:15 pero según volatilidad (stop 2 ATR, objetivo 3,33 ATR)
+     4006 ops (3.6/día) · acierto 40% · PF 0.98 · no vistos PF 0.99 · costes dobles PF 0.88 · caída 120R
+     con x10: ganadora media +39.1% · perdedora media -26.5% · media por operación -0.30% sobre margen
+     falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+❌ Stop 2 ATR, objetivo 2 ATR (1:1)
+     4502 ops (4.0/día) · acierto 52% · PF 0.92 · no vistos PF 0.93 · costes dobles PF 0.80 · caída 213R
+     con x10: ganadora media +23.0% · perdedora media -26.6% · media por operación -1.02% sobre margen
+     falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0, sensibilidad
+
+❌ Stop 2 ATR, objetivo 6 ATR (1:3)
+     3457 ops (3.1/día) · acierto 30% · PF 1.04 · no vistos PF 1.03 · costes dobles PF 0.95 · caída 125R
+     con x10: ganadora media +64.8% · perdedora media -26.4% · media por operación +0.77% sobre margen
+     falla: PF≥1,15, no vistos PF≥1,1, costes dobles PF≥1, sin 5% mejores >0
